@@ -4,7 +4,7 @@
 
     <groupId>org.flmelody</groupId>
     <artifactId>reflections</artifactId>
-    <version>0.11-SNAPSHOT</version>
+    <version>0.10.2</version>
     <packaging>jar</packaging>
 
     <name>Reflections</name>
@@ -32,8 +32,16 @@
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>
+                https://s01.oss.sonatype.org/content/repositories/snapshots
+            </url>
         </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>
+                https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/
+            </url>
+        </repository>
     </distributionManagement>
 
     <properties>
@@ -167,7 +175,7 @@
                         <extensions>true</extensions>
                         <configuration>
                             <serverId>ossrh</serverId>
-                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
                     </plugin>
