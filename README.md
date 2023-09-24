@@ -5,6 +5,7 @@ only
 
 # Java runtime metadata analysis
 
+![GitHub](https://img.shields.io/github/license/Flmelody/reflections)
 ![Dynamic XML Badge](https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Frepo1.maven.org%2Fmaven2%2Forg%2Fflmelody%2Freflections%2Fmaven-metadata.xml&query=%2F%2Fmetadata%2Fversioning%2Flatest&label=maven-central)
 ![Java Version(8-17)](https://github.com/Flmelody/reflections/actions/workflows/maven-ci.yml/badge.svg)
 
